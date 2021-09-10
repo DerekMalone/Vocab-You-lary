@@ -1,7 +1,7 @@
 const navBar = () => {
   document.querySelector('#navigation').innerHTML = `
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-4">
-          <a class="navbar-brand title" href="#">Almost Amazon</a>
+          <a class="navbar-brand title" href="#">Vocab-You-lary</a>
           <button
             class="navbar-toggler"
             type="button"
