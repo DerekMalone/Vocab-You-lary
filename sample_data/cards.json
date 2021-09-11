@@ -1,121 +1,51 @@
-[{
-    "firebaseKey": "",
-    "user_id": "",
-    "title": "Job",
-    "definition": "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies",
-    "language_tech": "French",
-    "time": "2/6/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Holdlamis",
-    "definition": "etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst",
-    "language_tech": "Kazakh",
-    "time": "12/24/2020"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Andalax",
-    "definition": "est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin",
-    "language_tech": "Marathi",
-    "time": "10/10/2020"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Duobam",
-    "definition": "vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus",
-    "language_tech": "Māori",
-    "time": "9/25/2020"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Alphazap",
-    "definition": "ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis",
-    "language_tech": "Romanian",
-    "time": "8/12/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Aerified",
-    "definition": "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem",
-    "language_tech": "Burmese",
-    "time": "10/18/2020"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Zathin",
-    "definition": "turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis",
-    "language_tech": "Oriya",
-    "time": "7/29/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Biodex",
-    "definition": "amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum",
-    "language_tech": "Belarusian",
-    "time": "12/14/2020"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Quo Lux",
-    "definition": "amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue",
-    "language_tech": "Dzongkha",
-    "time": "4/19/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Biodex",
-    "definition": "molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae",
-    "language_tech": "Gujarati",
-    "time": "7/7/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Stim",
-    "definition": "sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus",
-    "language_tech": "Belarusian",
-    "time": "3/11/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Trippledex",
-    "definition": "in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate",
-    "language_tech": "Georgian",
-    "time": "8/14/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Gembucket",
-    "definition": "rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat",
-    "language_tech": "Yiddish",
-    "time": "8/19/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Fintone",
-    "definition": "a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices",
-    "language_tech": "Luxembourgish",
-    "time": "8/30/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Vagram",
-    "definition": "vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
-    "language_tech": "Icelandic",
-    "time": "7/10/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Bigtax",
-    "definition": "mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque",
-    "language_tech": "Spanish",
-    "time": "5/7/2021"
-  }, {
-    "firebaseKey": null,
-    "user_id": null,
-    "title": "Job",
-    "definition": "maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
-    "language_tech": "English",
-    "time": "12/27/2020"
+[ {
+  "-MjHiWDRmKDmXZPPVkFH" : {
+    "definition" : "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies",
+    "firebaseKey" : "-MjHiWDRmKDmXZPPVkFH",
+    "language_tech" : "French",
+    "time" : "2/6/2021",
+    "title" : "Job",
+    "user_id" : ""
+  },
+  "-MjKtqRwcuwDnW7mVMRe" : {
+    "definition" : "est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin",
+    "firebaseKey" : "-MjKtqRwcuwDnW7mVMRe",
+    "language_tech" : "Marathi",
+    "time" : "10/10/2020",
+    "title" : "Andalax",
+    "user_id" : ""
+  },
+  "-MjKyeFmUplh4pqstT4e" : {
+    "definition" : "Something, something, something, Dark side",
+    "firebaseKey" : "-MjKyeFmUplh4pqstT4e",
+    "language_tech" : "JavaScript",
+    "time" : "2021-09-11T17:49:36.020Z",
+    "title" : "New Item"
+  },
+  "-MjL4rgS1BF7lH35QVBy" : {
+    "definition" : "vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus",
+    "firebaseKey" : "-MjL4rgS1BF7lH35QVBy",
+    "language_tech" : "Māori",
+    "time" : "9/25/2020",
+    "title" : "Duobam",
+    "user_id" : ""
+  },
+  "-MjL50hG6KBjapE6IzpW" : {
+    "definition" : "ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis",
+    "firebaseKey" : "-MjL50hG6KBjapE6IzpW",
+    "language_tech" : "Romanian",
+    "time" : "8/12/2021",
+    "title" : "Alphazap",
+    "user_id" : ""
+  },
+  "-MjL5AVHAGWgP9z-0yhQ" : {
+    "definition" : "rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem",
+    "firebaseKey" : "-MjL5AVHAGWgP9z-0yhQ",
+    "language_tech" : "Burmese",
+    "time" : "10/18/2020",
+    "title" : "Aerified",
+    "user_id" : ""
   }
+}
+
 ]
