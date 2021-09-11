@@ -17,6 +17,11 @@ const navBar = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
+                <a class="nav-link" href="#" id="show-all-vocab">
+                  Show all Vocabulary Cards <span class="sr-only">(current)</span>
+                </a>
+                </li>
+                <li>
                 <a class="nav-link" href="#" id="new-vocab">
                   Create a New Vocabulary Card! <span class="sr-only">(current)</span>
                 </a>
