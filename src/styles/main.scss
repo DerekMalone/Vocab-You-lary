@@ -2,16 +2,25 @@
 @import "~bootstrap/scss/bootstrap";
 
 
+// .dark-primary-color    { background: #455A64; }
+// .default-primary-color { background: #607D8B; }
+// .light-primary-color   { background: #CFD8DC; }
+// .text-primary-color    { color: #FFFFFF; }
+// .accent-color          { background: #009688; }
+// .primary-text-color    { color: #212121; }
+// .secondary-text-color  { color: #757575; }
+// .divider-color         { border-color: #BDBDBD; }
+
+
 body {
-  background-color: rgb(150, 144, 132);
-  color: brown;
+  background-color: #455A64;
+  color: #FFFFFF;
   text-align: center;
   margin-top: 100px;
 }
 
 .navbar-dark .navbar-brand {
-  font-family: "Oregano", cursive !important;
-  color: red;
+  color: #009688;
   font-weight: 900;
   font-size: 2em;
 }

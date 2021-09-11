@@ -1,6 +1,7 @@
 const navBar = () => {
   document.querySelector('#navigation').innerHTML = `
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-4">
+      <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX35962412.jpg" width="75"alt="vocabulary image">
           <a class="navbar-brand title" href="#">Vocab-You-lary</a>
           <button
             class="navbar-toggler"
@@ -16,33 +17,16 @@ const navBar = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#" id="all-books">
-                  All Books <span class="sr-only">(current)</span>
+                <a class="nav-link" href="#" id="new-vocab">
+                  Create a New Vocabulary Card! <span class="sr-only">(current)</span>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="sale-books">Books on Sale</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="authors">Authors</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="fav-authors">Favorite Authors</a>
-              </li>
-              <li>
-              <input
-                class="form-control mr-sm-2"
-                id="search"
-                placeholder="Search Book Titles"
-                aria-label="Search"
-              />
-              </li>
-            </ul>
-            <div id="cart-button"></div>
-            <div id="logout-button"></div>
-          </div>
-        </nav>
-      `;
+                </li>
+                </ul>
+                <div id="cart-button"></div>
+                <div id="logout-button"></div>
+                </div>
+                </nav>
+                `;
 };
 
 export default navBar;

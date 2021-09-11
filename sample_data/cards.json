@@ -1,6 +1,6 @@
 [{
-    "firebaseKey": null,
-    "user_id": null,
+    "firebaseKey": "",
+    "user_id": "",
     "title": "Job",
     "definition": "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies",
     "language_tech": "French",
