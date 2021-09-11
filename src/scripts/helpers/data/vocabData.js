@@ -1,10 +1,9 @@
-// GET VOCAB CARDS
-
 import axios from 'axios';
 import firebaseConfig from '../../../api/apiKeys';
 
 const dbUrl = firebaseConfig.databaseURL;
 
+// GET VOCAB CARDS
 const getVocabCards = () => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/vocab.json`)
     .then((response) => resolve(Object.values(response.data)))
@@ -40,11 +39,14 @@ const deleteVocabCard = (vocabId) => new Promise((resolve, reject) => {
     }).catch(reject);
 });
 
-// // UPDATE VOCAB CARD
-// const updateVocabCard = (vocabId) => new Promise((resolve, reject) => {
-
-// });
+// UPDATE VOCAB CARD
+const updateVocabCard = (vocabObj) => new Promise((resolve, reject) => {
+  console.warn(vocabObj.firebaseKey);
+  axios.patch(`${dbUrl}/vocab/${vocabObj.firebaseKey}.json`, vocabObj)
+    .then(() => getVocabCards().then(resolve))
+    .catch(reject);
+});
 
 export {
-  getVocabCards, createVocabCard, deleteVocabCard, getSingleVocabCard
+  getVocabCards, createVocabCard, deleteVocabCard, getSingleVocabCard, updateVocabCard
 };

@@ -1,23 +1,23 @@
 import { clearDom } from '../../helpers/clearDom';
 
-const createNewVocab = () => {
+const createNewVocab = (obj = {}) => {
   clearDom();
   document.querySelector('#form-container').innerHTML = `
   <form id="vocab-form" class="">
     <div class="form-group">
         <label for="first_name">Title</label>
-        <input type="text" class="form-control" id="vocab-title" placeholder="Title" value="" required>
+        <input type="text" class="form-control" id="vocab-title" placeholder="Title" value="${obj.title || ''}" required>
       </div>
       <div class="form-group">
         <label for="vocab-definition">Definition</label>
-        <input type="text" class="form-control" id="vocab-definition" placeholder="Definition" value="" required>
+        <input type="text" class="form-control" id="vocab-definition" placeholder="Definition" value="${obj.definition || ''}" required>
       </div>
       <div class="form-group">
         <label for="vocab-language-tech">Language or Technology</label>
-        <input type="text" class="form-control" id="vocab-language-tech" placeholder="Language or Tech" value="" required>
+        <input type="text" class="form-control" id="vocab-language-tech" placeholder="Language or Tech" value="${obj.language_tech || ''}" required>
       </div>
       <button type="submit" 
-        id="submit-vocab" class="btn btn-primary">Submit New Vocabulary
+        id="${obj.firebaseKey ? `update-vocab-btn--${obj.firebaseKey}` : 'submit-vocab'}" class="btn btn-primary">Submit New Vocabulary
       </button>
   </form>
   `;

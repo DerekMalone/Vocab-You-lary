@@ -4,7 +4,6 @@ const showVocabCards = (array) => {
   clearDom();
 
   array.forEach((item) => {
-    console.warn(item.language_tech);
     document.querySelector('#store').innerHTML += `
       <div class="card">
         <div class="card-body" style="height: 180px;">
